@@ -2,28 +2,34 @@
 @import 'lib/elements';
 
 * {
-    
+    margin: 0;
 }
 
 .main {
-    width: 100%;
-    margin: 0;
+    width: auto;
     height: 80%;
-    .self-pane {
-        float: left;
-        width: 50%;
-        border: 1px solid black;
-    }
-    .other-pane {
-        float: right;
-        width: 50%;
-        border: 1px solid black;
-    }
 }
-
+.self-pane {
+    position: relative;
+    float: left;
+    width: 50%;
+    border: 1px solid black;
+    height: 80%;
+}
+.other-pane {
+    position: relative;
+    float: right;
+    width: 50%;
+    border: 1px solid black;
+    height: 80%;
+}
 .bottom {
     float: bottom;
+    height: 20%;
     width: 100%;
     border: 1px solid black;
-    
+}
+
+#main {
+    height: 100%;
 }
