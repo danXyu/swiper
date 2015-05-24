@@ -5,7 +5,7 @@
                     <div class="self-pane">
                         <p class="instructions">Lookin' good!</p>
                         <div id="local-media"></div>
-                        <button id="button-preview">Preview My Camera</button>
+                        <button id="button-preview" class="sharp">Preview My Camera</button>
                     </div>
 
                     <div class="other-pane">Hello!</div>
@@ -13,9 +13,9 @@
         {{else}}
             <div class="signup">
                 <form class="main form">
-                    <label class="control-label" for="username">Create a Username:</label>
+                    <label class="control-label" for="username">Create a Username</label>
                     <input name="username" id="username" type="text" value="{{username}}" placeholder="John Doe" class="form-control"/>
-                    <input type="submit" value="Submit" class="btn btn-primary submit"/>
+                    <input type="submit" value="Submit" class="btn btn-default submit sharp"/>
                 </form>
             </div>
         {{/if}}
