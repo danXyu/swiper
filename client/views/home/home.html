@@ -2,7 +2,12 @@
     <div class="row-fluid">
         {{#if activeUser}}
                 <div class="main">
-                    <div class="self-pane">Hello!</div>
+                    <div class="self-pane">
+                        <p class="instructions">Lookin' good!</p>
+                        <div id="local-media"></div>
+                        <button id="button-preview">Preview My Camera</button>
+                    </div>
+
                     <div class="other-pane">Hello!</div>
                 </div>
         {{else}}
