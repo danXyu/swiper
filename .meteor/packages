@@ -24,4 +24,5 @@ meteorhacks:fast-render
 
 semantic:ui-css
 bootstrap
-abhiaiyer:meteor-twilio
+mrt:twilio-meteor
+mrt:moment
