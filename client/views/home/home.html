@@ -7,8 +7,11 @@
                 </div>
         {{else}}
             <div class="signup">
-                <input name="title" id="title" type="text" value="{{title}}" placeholder="Username" class="form-control"/>
-                <span class="help-block">{{errorMessage 'title'}}</span>
+                <form class="main form">
+                    <label class="control-label" for="username">Create a Username:</label>
+                    <input name="username" id="username" type="text" value="{{username}}" placeholder="John Doe" class="form-control"/>
+                    <input type="submit" value="Submit" class="btn btn-primary submit"/>
+                </form>
             </div>
         {{/if}}
     </div>
