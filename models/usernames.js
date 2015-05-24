@@ -6,11 +6,14 @@ usernames.attachSchema(
       type: String
     },
     content: {
-      type: String
+      type: Number
     },
     createdAt: {
       type: Date,
       denyUpdate: true
+    },
+    address: {
+      type: String
     }
   })
 );

@@ -5,13 +5,14 @@
                     <div class="self-pane">
                         <p class="instructions">This is... You</p>
                         <div id="local-media"></div>
-                        <button id="button-preview" class="sharp">Preview My Camera</button>
+                        <input id="invite-to" type="text" placeholder="Name of Partner" value="{{inviteTo}}" />
+                        <button id="button-invite" class="sharp">Start Conversation</button>
                     </div>
 
                     <div class="other-pane">
                         <p class="instructions">This is... A Stranger</p>
                         <div id="stranger-media"></div>
-                        <button id="button-preview">Preview My Camera</button>
+                        <button id="button-invite">Start Conversation</button>
                     </div>
                 </div>
         {{else}}
